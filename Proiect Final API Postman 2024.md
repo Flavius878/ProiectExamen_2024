@@ -1,24 +1,24 @@
 # ProiectExamen_2024
 API Testing Project for **Proiect Final Examen**
-The scope of this project is to use all API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
+Scopul proiectului este acela de a demonstra utilizarea unor elemente esentiale in testarea API
 
-Application under test: https://reqres.in/api-docs/#/
+Aplicatie/Site testat: https://reqres.in/api-docs/#/
 
-Tools used: Postman
+Aplicatie folosita pentru testare: Postman
 
-Collection link: Inserati aici linkul catre colectia de API
+Linkul colectiei: https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-4777-8910-c76352f00a88/collection/33405957-849a7c62-638d-41f0-b55d-0ccd6ad07129
 
 Tests performed
 **GET**
-HTTP method for request: GET
-Request description:Aduce o lista de resurese
-Test types / techniques used:Testare pozitiva
+Metoda HTTP pentru request: GET
+Request description: Aduce o lista de resurese ale API-ului
+Tipuri de teste/ tehnici used:Testare pozitiva
 Response status code: 200
 
-Below you can find a picture of the API request from Postman:
+Mai jos puteti regasi o fotografie a acestei comenzi:
 
+![alt text](image.png)
 
-Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body
 
 JavaScript Tests:
 
