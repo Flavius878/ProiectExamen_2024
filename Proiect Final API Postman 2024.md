@@ -84,7 +84,7 @@ Avem un raport final unde se poate observa o serie de teste executate cu ajutoru
 
 Avem o ferestra ce ne arata scriptul testelor cat si rezultatele/raspunsul primit de la API in urma interogarii sale.
 
-[text](<ReqRes API.postman_collection.pdf>)
+[Codul Testelor](Cod_Teste.pdf)
 
 Mai sus avem scriptul in format PDF al intregului set de comenzi si teste
 
