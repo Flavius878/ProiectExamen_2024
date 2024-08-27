@@ -1,4 +1,5 @@
 # ProiectExamen_2024
+
 API Testing Project for **Proiect Final Examen**
 Scopul proiectului este acela de a demonstra utilizarea unor elemente esentiale in testarea API
 
@@ -62,7 +63,7 @@ Avem un raport final unde se poate observa o serie de teste executate cu ajutoru
 
 Avem o ferestra ce ne arata scriptul testelor cat si rezultatele/raspunsul primit de la API in urma interogarii sale.
 
-![alt text](<Verification si Validation.jpg>)
+[text](<ReqRes API.postman_collection.pdf>)
 
 Mai sus avem scriptul in format PDF al intregului set de comenzi si teste
 
