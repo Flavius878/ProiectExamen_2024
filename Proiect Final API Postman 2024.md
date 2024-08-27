@@ -53,13 +53,34 @@ Fiind un API de test comanda nu modifica literalmente nimic ci doar interogheaza
 ![alt text](image-2.png)
 
 
+**POST**
+
+POST (Trimite):
+Rol: Trimite date către un server pentru a fi procesate.
+
+Descriere: Comanda POST este folosită pentru a trimite date către server, de exemplu, pentru a crea un nou obiect sau a efectua o acțiune. De obicei, este utilizată în formulare web sau pentru a adăuga date într-o bază de date.
+In imaginea alaturat avem exemplu de accesare a aceesare a unui endpoint de logare al API-ului cu un user, parola si adresa de email insa putem observa din raspunsul oferit in campul Body cum userul nu poate fi gasit in baza de date a Api-ului.
+Motivul pentru care userul nu se regaseste este  ca nu a fost inregistrat ca user valid in baza de date anterior.
+
+![alt text](image-5.png)
+
+In campul Body putem vedea mesajul returnat de catre Api ce insemna ca userul nu a fost gasit.
+![alt text](image-6.png)
+
+
+Tehnica de testare este una de testare negativa: introducerea unor date inexistente in campul body al interogarii cu asteparea unui rezultat negative.
+
+
+
 **Raport Final**
 
+
+Avem un raport final unde se poate observa o serie de teste executate cu ajutorul Postman cat si cele care au trecut conform asteptarilor  si cele care nu au trecut.
 
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
-Avem un raport final unde se poate observa o serie de teste executate cu ajutorul Postman cat si cele care au trecut conform asteptarilor  si cele care nu au trecut.
+
 
 Avem o ferestra ce ne arata scriptul testelor cat si rezultatele/raspunsul primit de la API in urma interogarii sale.
 
