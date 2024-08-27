@@ -10,63 +10,80 @@ Linkul colectiei: https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-47
 
 Tests performed
 **GET**
-Metoda HTTP pentru request: GET
+Metoda HTTP pentru request: GET Rol: Solicită informații de la un server accesand un endpoint.Comanda GET este utilizată pentru a obține date de la un URL specific. Răspunsul conține informațiile cerute, cum ar fi pagini web, imagini sau alte resurse.
+
+
 Request description: Aduce o lista de resurese ale API-ului
 Tipuri de teste/ tehnici used:Testare pozitiva
-Response status code: 200
+Response status code: 200. Solicitarea a avut succes.
 
 Mai jos puteti regasi o fotografie a acestei comenzi:
 
 ![alt text](image.png)
 
+Interogarea endpoin-ului prin metoda get are rol de testare pozitiva si rezultatul adus reprezinta o serie de culori din baza de date a API-ului.
 
-JavaScript Tests:
 
-Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora
 
-**Nume Request 2**
-HTTP method for request: Inserati aici metoda HTTP a requestului
-Request description: Inserati o scurta descriere a requestului, conform documentatiei de API
-Test types / techniques used: Inserati tipurile si tehnicile de testare folosite pentru acest request
-Response status code: Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului
+**DELETE**
+DELETE (Șterge)
+Rol: Șterge o resursă de pe server.
+NU AVEM rezultat returnat in campul body deoarece userul a fost sters iar actiunea este confirmata de status.
+Descriere: Comanda DELETE este folosită pentru a șterge o resursă specifică de pe server. De exemplu, poți șterge un articol dintr-un blog sau un utilizator dintr-o bază de date.
+Aceats interogare reprezinta o tehnica de testare pozitiva.
+![alt text](image-1.png)
 
-Below you can find a picture of the API request from Postman:
+Aceats interogare reprezinta o tehnica de testare pozitiva.
 
-Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body
 
-JavaScript Tests:
-
-Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora
 
 .............
 
-**Nume Request n**
-HTTP method for request: Inserati aici metoda HTTP a requestului
-Request description: Inserati o scurta descriere a requestului, conform documentatiei de API
-Test types / techniques used: Inserati tipurile si tehnicile de testare folosite pentru acest request
-Response status code: Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului
+**PUT**
+PUT (Înlocuiește):
+Rol: Înlocuiește complet o resursă existentă sau o creează dacă nu există.
 
-Below you can find a picture of the API request from Postman:
+Descriere: Comanda PUT este folosită pentru a înlocui complet o resursă existentă cu una nouă. Dacă resursa nu există, este creată. Este utilizată pentru actualizări complete.
 
-Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body
+In situatia prezentata rezultatul returnat din campul “Body” ne indica faptul ca intentia de Update a fost receptionata la data si ora mentionate.
 
-JavaScript Tests:
+Fiind un API de test comanda nu modifica literalmente nimic ci doar interogheaza API cu privire la capacitatea de receptionare a unei comenzi PUT.
 
-Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora
+![alt text](image-2.png)
 
-Execution report for the created API collection
-Below you can find the execution report that was generated through the Postman collection runner.
 
-Inserati aici o poza cu raportul de executie din Postman
+**Raport Final**
 
-The collection was also run through newman directly from the terminal, and the results can be found below:
 
-Inserati aici o poza cu raportul de executie din Newman
+![alt text](image-3.png)
+![alt text](image-4.png)
 
-Defects found
-The following issues were identified while running the postman tests:
+Avem un raport final unde se poate observa o serie de teste executate cu ajutorul Postman cat si cele care au trecut conform asteptarilor  si cele care nu au trecut.
 
-**Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale. Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira
+Avem o ferestra ce ne arata scriptul testelor cat si rezultatele/raspunsul primit de la API in urma interogarii sale.
 
-Conclusions
-Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc
+![alt text](<Verification si Validation.jpg>)
+
+Mai sus avem scriptul in format PDF al intregului set de comenzi si teste
+
+**CONCLUZIILE FINALE**
+
+Validarea API-ului:
+1. Funcționalitate: API-ul a fost testat demonstrative pentru a se asigura că toate funcționalitățile sale corespund specificațiilor inițiale.
+Erori și rezolvarea lor: Au fost identificate diverse bug-uri și erori care ar fi putut afecta funcționarea aplicației.
+2. Performanța:
+Timp de răspuns: Testele de performanță au arătat un timp de răspuns adecvat pentru majoritatea cererilor, asigurând astfel o experiență de utilizator fluentă.
+Stabilitate: API-ul a demonstrat stabilitate și fiabilitate sub diferite condiții de încărcare, tinand cont ca este un API demonstrativ.
+
+Lectii invatate
+
+ Procesul de testare: 
+
+a)Importanța unei metodologii riguroase de testare pentru asigurarea calității produsului final este un must.
+
+b)Nu intodeauna o documentatie API este corecta drept urmare o testare statica este foarte necesara pentru a aduce corectiile necesare din timp si a evita ingreunarea fazei de executie a testarii practice. 
+
+c)Testarea minutioasa a fiecarui rezultat adus inca de la prima interogare poate evidentia erori ce nu sunt banuite din simpla citire a rezultatelor.
+
+d)Utilizarea a macar doua tehnici de testare (negative si pozitiva in acest caz) este cruciala in descoperirea bu-urilor/erorilor unui API
+
