@@ -6,7 +6,7 @@ Scopul proiectului este acela de a demonstra utilizarea unor elemente esentiale 
 
 **Aplicatie folosita pentru testare:** Postman
 
-**Linkul colectiei [aici](https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-4777-8910-c76352f00a88/collection/33405957-849a7c62-638d-41f0-b55d-0ccd6ad07129)**
+**Linkul colectiei [aici](https://github.com/Flavius878/ProiectExamen_2024/blob/main/ReqRes%20API.postman_collection.json)**
 
 ## Tests performed
 
