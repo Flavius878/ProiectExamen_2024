@@ -1,13 +1,12 @@
-# ProiectExamen_2024
+# API Testing Project for **reqres.in**
 
-API Testing Project for **Proiect Final Examen**
 Scopul proiectului este acela de a demonstra utilizarea unor elemente esentiale in testarea API
 
-Aplicatie/Site testat: https://reqres.in/api-docs/#/
+**Aplicatie/Site testat:** https://reqres.in/api-docs/#/
 
-Aplicatie folosita pentru testare: Postman
+**Aplicatie folosita pentru testare:** Postman
 
-Linkul colectiei: https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-4777-8910-c76352f00a88/collection/33405957-849a7c62-638d-41f0-b55d-0ccd6ad07129
+**Linkul colectiei:** https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-4777-8910-c76352f00a88/collection/33405957-849a7c62-638d-41f0-b55d-0ccd6ad07129
 
 Tests performed
 **GET**
