@@ -1,22 +1,26 @@
-# ProiectExamen_2024
+# API Testing Project for **reqres.in**
 
-API Testing Project for **Proiect Final Examen**
 Scopul proiectului este acela de a demonstra utilizarea unor elemente esentiale in testarea API
 
-Aplicatie/Site testat: https://reqres.in/api-docs/#/
+**Aplicatie/Site testat:** [reqres.in](https://reqres.in/api-docs/#/)
 
-Aplicatie folosita pentru testare: Postman
+**Aplicatie folosita pentru testare:** Postman
 
-Linkul colectiei: https://web.postman.co/workspace/My-Workspace~00b48e9e-7263-4777-8910-c76352f00a88/collection/33405957-849a7c62-638d-41f0-b55d-0ccd6ad07129
+**Linkul colectiei [aici](https://github.com/Flavius878/ProiectExamen_2024/blob/main/ReqRes%20API.postman_collection.json)**
 
-Tests performed
-**GET**
-Metoda HTTP pentru request: GET Rol: Solicită informații de la un server accesand un endpoint.Comanda GET este utilizată pentru a obține date de la un URL specific. Răspunsul conține informațiile cerute, cum ar fi pagini web, imagini sau alte resurse.
+## Tests performed
+
+1. **GET**
+   
+Metoda HTTP pentru request GET 
+Rol: Solicită informații de la un server accesand un endpoint. <br>
+Comanda GET este utilizată pentru a obține date de la un URL specific. <br>
+Răspunsul conține informațiile cerute, cum ar fi pagini web, imagini sau alte resurse.
 
 
-Request description: Aduce o lista de resurese ale API-ului
-Tipuri de teste/ tehnici used:Testare pozitiva
-Response status code: 200. Solicitarea a avut succes.
+**Request description:** Aduce o lista de resurese ale API-ului <br>
+**Tipuri de teste/ tehnici used:** Testare pozitiva<br>
+**Response status code:** 200. Solicitarea a avut succes.<br>
 
 Mai jos puteti regasi o fotografie a acestei comenzi:
 
